@@ -11,7 +11,8 @@
 		form input {font-size:12px; padding:10px; border:1px #ccc solid; background:#FFF; border-radius:5px;}
 	</style>
 </head>
-<body background="https://d1otfi4uhdq3fm.cloudfront.net/content/uploads/2017/12/26074018/Singapore-fireworks.jpg" style="background-size:cover;">
+<!--<body background="https://d1otfi4uhdq3fm.cloudfront.net/content/uploads/2017/12/26074018/Singapore-fireworks.jpg" style="background-size:cover;">-->
+<body style="background:url('images/singapur-fire.png'); background-repeat: no-repeat; background-position: center 100px; position: absolute; width: 100%; height: 100%; background-color: blue">
 
 	<form action="New_Year.php" method="get">
     	<label for="name">Enter Text</label>
@@ -19,6 +20,5 @@
         
         <input type="submit" name="submit" value="Let's Go">
     </form>
-	
 </body>
 </html>
